@@ -1,3 +1,93 @@
 this is a file
 iam jaisuriya
 iam be
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "Logged in users:"
+ who
+ echo "Loggin Names:"
+ users
+ echo "Current Shell:"
+ echo $SHELL
+ echo "Home Directory:"
+ echo $HOME
+echo "Operating System type:" uname -o
+echo $OSTYPE echo "Path Settings:"
+     
+    echo $PATH
+    echo "Current working directory:"
+     pwd
+    echo "No.of logged in users:"
+    users | wc -w  
+
+
+
+
+///////////////////////////////////////////////
+
+
+echo "1)Os and version ,release number,kernel version"
+uname -a
+echo "2)All available shells"
+cat /etc/shells
+echo "3)Computer CPU info like processor,type,speed etc..."
+cat /proc/cpuinfo
+lscpu
+echo "4)Memory location"
+cat /proc/meminfo
+echo "5)HardDisk info like size of hard disk,cache memory model etc..."
+sudo lshw -class disk
+wwinfo --disk
+echo "File System (Mounted)"
+cat /proc/mounts
